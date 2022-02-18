@@ -1,0 +1,11 @@
+# Inicializar git
+$ git init
+
+# Especificar el repositorio
+$ git remote add origin https://github.com/amkristhian1995/PowerShell---MS-Graph.git
+
+$ git status
+
+$ git add .
+
+$ git commit -m 'Agregando nuevos script'

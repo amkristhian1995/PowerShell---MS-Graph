@@ -59,4 +59,4 @@ function fnObtenerTodosDatosMSGraph($MSGraphApi) {
 # Obtener los datos de los usuarios
 $MSGraphApi='https://graph.microsoft.com/v1.0/users?$top=9'
 $UsersAll=fnObtenerTodosDatosMSGraph $MSGraphApi
-$UsersAll | Export-Csv "D:\PowerShell\MS Graph\Export\Usuarios\Usuario_kaam1995.csv" -Encoding UTF8 -NoTypeInformation
+$UsersAll | Export-Csv "D:\PowerShell\MS Graph\Export\Usuario_kaam1995.csv" -Encoding UTF8 -NoTypeInformation
